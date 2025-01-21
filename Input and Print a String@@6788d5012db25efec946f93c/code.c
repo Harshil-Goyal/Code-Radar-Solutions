@@ -2,8 +2,8 @@
 
 int main(){
     char a[30];
-    fgets(a);
-    puts("You entered: %c",a);
+    scanf(%c,&a);
+    printf("You entered: %c",a);
 
 
 }
