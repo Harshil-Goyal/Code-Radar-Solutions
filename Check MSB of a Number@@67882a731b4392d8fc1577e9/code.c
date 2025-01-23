@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(){
-    long int a;
-    scanf("%ld",&a);
+    int a;
+    scanf("%d",&a);
     if((a>>32)==-1){
         printf("Set");
     }
