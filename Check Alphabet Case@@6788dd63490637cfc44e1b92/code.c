@@ -7,5 +7,7 @@ int main(){
     }
     else{
         printf("Lowercase")
-}
+    }
+    return 0;
+
 }
