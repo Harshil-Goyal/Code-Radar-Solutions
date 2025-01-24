@@ -4,10 +4,10 @@ int main(){
     int a,b,c;
     scanf("%d %d %d", &a, &b, &c);
     if (a>b && a>c){
-        priintf("%d",a);
+        printf("%d",a);
     }
     else if (b>a && b>c){
-        priintf("%d",b);
+        printf("%d",b);
     }
     else{
         printf("%d",c);
