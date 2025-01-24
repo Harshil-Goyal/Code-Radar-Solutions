@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(){
-    char c;
-    scanf("%c",&c);
-    if (isupper(c)) {
+    char a;
+    scanf("%c",&a);
+    if (isupper(a)) {
         printf("Uppercase");
     }
     else{
