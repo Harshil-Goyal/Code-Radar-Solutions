@@ -12,7 +12,8 @@ int main()
     {
         printf("Scalene");
     }
-    else{
+    else if(a==b || a==c || b==c)
+    {
         printf("Iscceles");
     }
     return 0;
