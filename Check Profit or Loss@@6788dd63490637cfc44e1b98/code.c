@@ -4,15 +4,15 @@ int main()
 {
     int a,b;
     scanf("%d %d", &a, &b);
-    if((b-a)>0)
+    if(b>a)
     {
         printf("Profit");
     }
-    else if((b-a)<0)
+    else if(b<a)
     {
         printf("Loss");
     }
-    else 
+    else if(b==a) 
     {
         printf("No profit No Loss");
     }
