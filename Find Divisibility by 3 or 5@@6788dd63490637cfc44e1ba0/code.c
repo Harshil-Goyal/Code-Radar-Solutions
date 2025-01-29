@@ -2,8 +2,8 @@
 
 int main()
 {
-    float a;
-    scanf("%f",&a);
+    int a;
+    scanf("%d",&a);
     if(a%3==0){
         printf("Divisible by 3");
     }
