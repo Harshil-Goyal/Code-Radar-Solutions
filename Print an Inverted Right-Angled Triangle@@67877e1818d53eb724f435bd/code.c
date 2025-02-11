@@ -3,15 +3,13 @@ int main()
 {
     int a,i,j;
     scanf("%d",&a);
-    for(i=1;i<=a,i++)
+    for(i=a;i>=1;i--)
     {
-        for(j=1;j<=a,j++)
+        for(j=1;j<=i;j++)
         {
-            if(j<=7-i)
             printf("*");
-            else
-            printf(" ");
         }
+        printf("\n");
     }
     return 0;
 }
