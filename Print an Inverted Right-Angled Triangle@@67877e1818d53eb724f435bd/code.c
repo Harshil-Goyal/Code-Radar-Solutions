@@ -1,12 +1,17 @@
 #include <stdio.h>
 int main()
 {
-    int a;
+    int a,i,j;
     scanf("%d",&a);
-    while(a>0)
+    for(i=1;i<=a,i++)
     {
-        printf(a * "*" );
-        a--;
+        for(j=1;j<=a,j++)
+        {
+            if(j<=7-i)
+            printf("*");
+            else
+            printf(" ");
+        }
     }
     return 0;
 }
