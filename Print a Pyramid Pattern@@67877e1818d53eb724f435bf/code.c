@@ -8,9 +8,9 @@ int main()
         for(j=1;j<=a;j++)
         {
             if(j>=5-i && j<=3+i)
-            printf("* ");
+            printf("*");
             else
-            printf("  ");
+            printf(" ");
         }
         printf("\n");
     }
