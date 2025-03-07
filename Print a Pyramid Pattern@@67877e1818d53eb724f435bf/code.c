@@ -1,4 +1,4 @@
-#include <stdi.h>
+#include <stdio.h>
 int main()
 {
     int a,i,j;
