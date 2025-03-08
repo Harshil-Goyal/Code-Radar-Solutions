@@ -10,7 +10,7 @@ int main()
             if(j>=5-i && j<=3+i)
             printf("*");
             else
-            printf("");
+            printf(" ");
         }
         printf("\n");
     }
