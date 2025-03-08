@@ -5,12 +5,9 @@ int main()
     scanf("%d",&a);
     for(i=1;i<=a;i++)
     {
-        for(j=1;j<=a;j++)
+        for(j=1;j<=i;j++)
         {
-            if(j>=1 && j<=a)
-            printf("%d",j);
-            else
-            printf(" ");
+            printf("%d ",j);
         }
         printf("\n");
     }
