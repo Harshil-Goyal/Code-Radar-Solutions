@@ -1,13 +1,14 @@
 #include <stdio.h>
 int main()
 {
-    int i,j,k;
-    for(i=1;i<=5;i++)
+    int i,j,k,a;
+    scanf("%d",&a);
+    for(i=1;i<=a;i++)
     {
-        i<=3?(k=i):(k=6-i);
-        for(j=1;j<=5;j++)
+        i<=3?(k=i):(k=a+1-i);
+        for(j=1;j<=a;j++)
         {
-            if(j>=4-k && j<=2+k)
+            if(j>=a-1-k && j<=a-3+k)
             printf(" *");
             else
             printf("  ");
