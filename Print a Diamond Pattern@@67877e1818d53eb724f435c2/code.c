@@ -9,9 +9,9 @@ int main()
         for(j=1;j<=a;j++)
         {
             if(j>=a-1-k && j<=a-3+k)
-            printf(" *");
+            printf("*");
             else
-            printf("  ");
+            printf(" ");
         }
         printf("\n");
     }
