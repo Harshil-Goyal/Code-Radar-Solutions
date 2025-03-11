@@ -2,13 +2,16 @@
 int main()
 {
     int a,i,j,k;
+    k=1;
     scanf("%d",&a);
-    for(i=1;i<=a;i++)
+    for(i=a;i>=1;i--)
+    k++;
     {
-        for(j=1;j<=a;j++)
+        for(j=1;j<=i;j++)
         {
-            if()
-            printf
+            printf("%d ",k);
         }
+        printf("\n");
     }
+    return 0;
 }
