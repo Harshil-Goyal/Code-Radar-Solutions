@@ -4,7 +4,6 @@ int main()
     int a,i,j,k=1;
     scanf("%d",&a);
     for(i=a;i>=1;i--)
-    k++;
     {
         for(j=1;j<=i;j++)
         {
