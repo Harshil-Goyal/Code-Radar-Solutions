@@ -8,7 +8,7 @@ int main()
         for(j=1;j<=2*a+i;j++)
         {
             if(j>=a-i+1 && j<=a+i-1)
-                printf("%d",);
+                printf("%d",d);
             else
                 printf(" ");
         }
