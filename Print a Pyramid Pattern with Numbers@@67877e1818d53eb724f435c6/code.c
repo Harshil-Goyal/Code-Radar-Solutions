@@ -16,7 +16,7 @@ int main() {
 
         if (i > 1) {
             for(j = 1; j <= 2 * i - 3; j++) {
-                printf("  ");
+                printf(" ");
             }
             printf("%d", d);
         }
