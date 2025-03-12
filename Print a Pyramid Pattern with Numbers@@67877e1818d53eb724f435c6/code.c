@@ -8,10 +8,10 @@ int main()
         for(j=1;j<=2*a;j++)
         {
             if(j>=a-i+1 && j<=a+i-1)
-               { printf("%d ",d);
+               { printf(" %d ",d);
                 d++;}
             else
-                printf(" ");
+                printf("  ");
         }
         printf("\n");
     }
