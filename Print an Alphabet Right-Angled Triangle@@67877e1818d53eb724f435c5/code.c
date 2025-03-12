@@ -8,9 +8,9 @@ int main()
     { 
         for(j=1;j<=i;j++)
         {
-            printf("%c\n ",d);
+            printf("%c\n",d);
         }
-        printf("", d++);
+        printf(" ", d++);
         
     }
     
