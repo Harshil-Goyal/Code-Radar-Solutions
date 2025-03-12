@@ -9,6 +9,7 @@ int main()
         {
             if(j>=a-i+1 && j<=a+i-1)
                 printf("%d",d);
+                d++;
             else
                 printf(" ");
         }
