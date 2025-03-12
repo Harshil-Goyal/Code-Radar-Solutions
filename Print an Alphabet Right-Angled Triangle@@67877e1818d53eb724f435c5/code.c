@@ -10,7 +10,7 @@ int main()
         {
             printf("%c",d);
         }
-        printf("\n", d++);
+        printf("\n",d, d++);
         
     }
     
