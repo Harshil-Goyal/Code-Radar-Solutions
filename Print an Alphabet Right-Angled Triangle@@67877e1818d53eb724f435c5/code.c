@@ -9,8 +9,8 @@ int main()
         for(j=1;j<=i;j++)
         {
             printf("%c ",d);
-            d++;
         }
+        d++;
         printf("\n");
     }
     return 0;
