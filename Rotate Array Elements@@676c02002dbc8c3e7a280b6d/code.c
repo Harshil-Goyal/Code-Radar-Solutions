@@ -29,6 +29,7 @@ int main() {
         printf("%d\n",arr[i]);
     }
     printf("\n");
+    printf("\b");
 
     return 0;
 }
