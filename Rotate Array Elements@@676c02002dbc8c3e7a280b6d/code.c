@@ -19,17 +19,19 @@ int main() {
     }
     scanf("%d", &k);
 
-    k = k % n; 
+    k = k % n; // Handle cases where k > n
 
     reverse(arr, 0, n - 1);
     reverse(arr, 0, k - 1);
     reverse(arr, k, n - 1);
 
     for (i = 0; i < n; i++) {
-        printf("%d\n",arr[i]);
+        printf("%d\n", arr[i]);
+        if (i < n - 1) { // Print space only if it's not the last element
+            printf(" ");
+        }
     }
     printf("\n");
-    printf("\b");
 
     return 0;
 }
