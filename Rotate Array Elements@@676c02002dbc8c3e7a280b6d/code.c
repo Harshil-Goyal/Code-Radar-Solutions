@@ -15,9 +15,9 @@ int main() {
     scanf("%d", &n);
     int arr[n];
     for (i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
+        scanf("%d",&arr[i]);
     }
-    scanf("%d", &k);
+    scanf("%d",&k);
 
     k = k % n; // Handle cases where k > n
 
@@ -26,7 +26,7 @@ int main() {
     reverse(arr, k, n - 1);
 
     for (i = 0; i < n; i++) {
-        printf("%d\n", arr[i]);
+        printf("%d\n",arr[i]);
         if (i < n - 1) { // Print space only if it's not the last element
             printf(" ");
         }
