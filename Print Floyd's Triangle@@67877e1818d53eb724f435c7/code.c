@@ -9,10 +9,8 @@ int main()
         for(j=1;j<=a;j++)
         {
             if(j<=i)
-            printf("%d ",n);
-            else
-            printf("  ");
-            n++;
+            printf("%d ",j);
+            
         }
         
         printf("\n");
