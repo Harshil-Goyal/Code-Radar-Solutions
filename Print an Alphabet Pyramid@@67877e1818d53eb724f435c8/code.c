@@ -14,8 +14,9 @@ int main()
             printf("%c ",c);
             else
             printf("  ");
+            c++;
         }
-        c++;
+        
         printf("\n");
     }
     return 0;
