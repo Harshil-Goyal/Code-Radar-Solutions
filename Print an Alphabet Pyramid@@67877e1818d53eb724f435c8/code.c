@@ -15,6 +15,7 @@ int main()
             else
             printf("  ");
         }
+        c++;
         printf("\n");
     }
     return 0;
