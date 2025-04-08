@@ -11,7 +11,7 @@ int main()
         for(j=1;j<=a;j++)
         {
             if(j<=i)
-            printf("* ");
+            printf("%c ",c);
             else
             printf("  ");
         }
