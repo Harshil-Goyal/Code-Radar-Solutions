@@ -7,7 +7,7 @@ int main()
     for(i=1;i<=a;i++)
     {
         c='A';
-        c++;
+        
         for(j=1;j<=a;j++)
         {
             if(j<=i)
