@@ -9,7 +9,7 @@ int main()
         c='A';
         for(j=1;j<=i;j++)
         {
-            printf("%c",c);
+            printf("%c ",c);
             c++;
         }
         printf("\n");
