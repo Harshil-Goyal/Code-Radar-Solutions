@@ -12,6 +12,7 @@ int main()
             printf("%d ",n);
             else
             printf("  ");
+            n++;
         }
         n++;
         printf("\n");
