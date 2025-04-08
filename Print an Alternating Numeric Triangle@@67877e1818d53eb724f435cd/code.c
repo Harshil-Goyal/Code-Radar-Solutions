@@ -15,7 +15,7 @@ int main()
             n++;
         }
         printf("\n");
-        n--;
+        
     }
     return 0;
 }
