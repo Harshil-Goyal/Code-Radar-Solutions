@@ -6,14 +6,15 @@ int main()
     for(i=1;i<=a;i++)
     {
         
-        for(j=n;j<=a;j++)
+        for(j=1;j<=a;j++)
         {
             if(j<=i)
             printf("%d ",j);
+            else
+            printf("  ");
             n++;
-
         }
-        
+        n++;
         printf("\n");
     }
     
